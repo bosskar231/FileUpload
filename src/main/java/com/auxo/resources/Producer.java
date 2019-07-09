@@ -5,11 +5,15 @@ import org.json.simple.JSONObject;
 import java.io.*;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.StringTokenizer;
 
 public class Producer {
 //    public static void main(String[] args) throws IOException {
 //        Producer producer=new Producer();
 //        producer.parseThis("E:\\Txt\\sample2.txt");
+
+
+
 //
 //    }
     //"E:\\Txt\\sample2.txt"
@@ -53,6 +57,7 @@ public class Producer {
         }
         return temp;
     }
+
     public JSONObject  parseThis(String path) throws IOException {
             JSONObject object=new JSONObject();
 

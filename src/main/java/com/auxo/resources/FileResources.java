@@ -23,6 +23,7 @@ public class FileResources {
             @FormDataParam("file") InputStream uploadedInputStream,
             @FormDataParam("file") FormDataContentDisposition fileDetail) throws IOException {
 
+
         String location = "E:\\Txt\\" + fileDetail.getFileName();
 
         System.out.println("location "+location);
