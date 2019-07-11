@@ -30,7 +30,7 @@ public class FileResources {
 Producer producer=new Producer();
 
 
-        return Response.ok(producer.parseThis(location)).build();
+        return Response.ok( producer.parseThis(location) ).build();
     }
 
 }
