@@ -28,9 +28,11 @@ public class FileResources {
 
         System.out.println("location "+location);
 Producer producer=new Producer();
+       producer.writeToFile(uploadedInputStream, location);
 
 
         return Response.ok( producer.parseThis(location) ).build();
     }
+
 
 }
